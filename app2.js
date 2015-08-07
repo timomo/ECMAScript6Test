@@ -1,6 +1,10 @@
 /**
  * Created by timomo on 2015/08/07.
  */
+var uniqueId = function(prefix) {
+    return prefix + 1;
+};
+
 var AnswerRadioInput = React.createClass({
     propTypes: {
         id: React.PropTypes.string,

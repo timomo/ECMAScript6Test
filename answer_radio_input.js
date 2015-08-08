@@ -40,8 +40,3 @@ var AnswerRadioInput = React.createClass({
         );
     }
 });
-
-React.render(
-    <AnswerRadioInput />,
-    document.getElementById("app-container")
-);
